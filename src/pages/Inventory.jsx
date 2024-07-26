@@ -72,7 +72,7 @@ export const Inventory = () => {
   function handleSubmit(values, actions) {
     if (isLastStep) {
       alert(
-        `Dear ${values.firstName}, Your account has been created successfully`
+        `Dear ${values.firstName}, Product Created Successfully`
       );
     } else {
       setActiveStep((prev) => prev + 1);
